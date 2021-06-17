@@ -92,14 +92,7 @@ imageDetails.addEventListener("click", function (event) {
   if (event.target.tagName === "BUTTON") {
     imageDetails.innerHTML = "";
   }
-console.log(event.target.getAttribute("media_type"))
-  if (event.target.getAttribute("media_type")=== "video") {/////add target _blank for video
-   
-    const embed = imageDetails.getElementsByTagName("embed")[0];
 
-    embed.setAttribute("target", "_blank");
- }
-  
 })
 
 
